@@ -3,23 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_homepage">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_homepage"
         android:name="com.hebut.deaftrainer.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_homepage"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.hebut.deaftrainer.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_library"
+        android:name="com.hebut.deaftrainer.ui.library.LibraryFragment"
+        android:label="@string/title_library"
+        tools:layout="@layout/fragment_library" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.hebut.deaftrainer.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_user"
+        android:name="com.hebut.deaftrainer.ui.user.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/navigation_log"
+        android:name="com.hebut.deaftrainer.ui.log.LogFragment"
+        android:label="@string/title_log"
+        tools:layout="@layout/fragment_log" />
 </navigation>
