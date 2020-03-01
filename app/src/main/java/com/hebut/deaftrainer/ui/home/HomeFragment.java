@@ -1,9 +1,11 @@
 package com.hebut.deaftrainer.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -12,11 +14,15 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.hebut.deaftrainer.MainActivity;
 import com.hebut.deaftrainer.R;
+import com.hebut.deaftrainer.loginactivity;
 
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
+    private Button mBtnButton;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -30,6 +36,8 @@ public class HomeFragment extends Fragment {
 //                textView.setText(s);
 //            }
 //        });
+
         return root;
     }
+
 }

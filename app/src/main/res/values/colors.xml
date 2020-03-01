@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="myBarColor">#0F0F0F</color>
+    <color name="feng">#F5F5F5</color>
+    <color name="feng1">#95A1AA</color>
 </resources>

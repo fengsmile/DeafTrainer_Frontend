@@ -1,18 +1,25 @@
 package com.hebut.deaftrainer;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Cap;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
+import android.os.Bundle;
 import android.util.AttributeSet;
 import android.util.TypedValue;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 
 public class RoundProgressBarWidthNumber extends
         ProgressBar
 {
+    private Button mBtnTextView;
+    private Button mBtnButton;
+
     private static final int DEFAULT_TEXT_COLOR = 0XFFFC00D1;
     private static final int DEFAULT_COLOR_UNREACHED_COLOR = 0xFFd3d6da;
     private static final int DEFAULT_HEIGHT_REACHED_PROGRESS_BAR = 2;
@@ -168,4 +175,7 @@ public class RoundProgressBarWidthNumber extends
                 spVal, getResources().getDisplayMetrics());
 
     }
-}
+
+    }
+
+
