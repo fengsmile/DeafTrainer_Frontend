@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:keepScreenOn="true"
+    tools:context=".study">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="1000dp"
+        android:layout_height="125dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:text="啊"
+            android:textSize="100sp"
+            android:paddingLeft="30dp"
+            ></TextView>
+
+        <view
+            android:layout_width="1dip"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"></view>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="200dp"
+            android:text="a"
+            android:textSize="100sp"
+            android:paddingLeft="80dp"
+            android:paddingBottom="20dp"
+            ></TextView>
+    </androidx.cardview.widget.CardView>
+<VideoView
+    android:id="@+id/Video_View"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_marginTop="125dp"
+    ></VideoView>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="290dp"
+        android:background="@drawable/feng"
+        android:layout_marginTop="480dp"
+
+         />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="490dp"
+        android:layout_weight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+        tools:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/feng"
+        android:layout_marginTop="480dp"
+
+        />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="485dp"
+        android:layout_weight="10dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/ic_keyboard_voice_black_24dp"
+        tools:srcCompat="@drawable/ic_keyboard_voice_black_24dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/feng"
+        android:layout_marginTop="480dp"
+
+        />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="485dp"
+        android:layout_weight="10dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/ic_refresh_black_24dp"
+        tools:srcCompat="@drawable/ic_refresh_black_24dp"></ImageView>
+
+</RelativeLayout>
